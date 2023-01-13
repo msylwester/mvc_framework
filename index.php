@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 use App\Routes\Router;
 
-include  $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . 'Helpers' . DIRECTORY_SEPARATOR . 'functions.php';
+include  $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . 'App' . DIRECTORY_SEPARATOR . 'Helpers' . DIRECTORY_SEPARATOR . 'functions.php';
 
 spl_autoload_register(function ($name) {
     include_once $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . str_replace('\\', DIRECTORY_SEPARATOR, $name) . '.php';

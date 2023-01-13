@@ -1,7 +1,7 @@
 <?php
 
 use \App\Routes\Router;
-use Controllers\HomeController;
+use App\Controllers\HomeController;
 
 Router::get('/', HomeController::class, 'index');
 Router::get('/test', HomeController::class, 'test');
