@@ -1,7 +1,7 @@
 <?php include 'Views/layouts/header.php'; ?>
 
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+<main class="px-3">
     <h1> TEST </h1>
-</div>
+</main>
 
 <?php include 'Views/layouts/footer.php'; ?>
